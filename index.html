@@ -1,0 +1,62 @@
+html_content = """<!DOCTYPE html>
+<html>
+<head>
+    <title>SANIKA - Personal Website</title>
+    <style>
+        body {font-family: Arial; background:#f4f4f4; text-align:center;}
+        header {background:#4CAF50; color:white; padding:20px;}
+        section {margin:20px; padding:20px; background:white; border-radius:10px;}
+        img {width:150px; border-radius:50%;}
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>SANIKA 👋</h1>
+    <p>My Personal Profile Website</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <img src="https://raw.githubusercontent.com/sanikajrds25-source/WEB-PROJECT/main/converted-IMG_20251027_211258.jpg.png">
+    <p>I am interested in AI, Bioinformatics, and Web Development.</p>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <p>Your College Name, BSc in Computer Science</p>
+</section>
+
+<section>
+    <h2>Hobbies</h2>
+    <ul>
+        <li>Coding 💻</li>
+        <li>Reading 📚</li>
+        <li>Music 🎵</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Achievements</h2>
+    <p>Completed Machine Learning Projects and Data Science Competitions.</p>
+</section>
+
+<section>
+    <h2>Certificates</h2>
+    <p>Python Certificate, Data Science Course</p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: sac123@example.com</p>
+</section>
+
+</body>
+</html>
+"""
+
+with open("index.html", "w") as f:
+    f.write(html_content)
+
+print("index.html created successfully!")
